@@ -14,6 +14,7 @@
 
 // console.log(playlist);
 
+// Область видимиості
 // const x = {};
 
 // const fn = function (myOjekt) {};
@@ -24,7 +25,7 @@
 //   return { a: 5 };
 // };
 
-// console.log(fn1());
+// console.log(fn2());
 
 /*
  * Доступ до влвстивості
@@ -52,8 +53,8 @@
 // const email = 'mango@mail.com';
 
 // const signupData = {
-//   username,
-//   email,
+//   username: username,
+//   email: email,
 // };
 
 // console.log(signupData);
@@ -64,13 +65,13 @@
 
 //  <input name="color" value="tomato" >
 
-// const inputName = 'color123';
+// const inputName = 'color';
 // const inputValue = 'tomato';
 
 // const colorPickerData = {
-//   [inputName]: 5,
+//   [inputName]: inputValue,
 // };
-// console.log(colorPickerData);
+// console.log(colorPickerData); //{color: 'tomato'}
 
 /*
  * Як добавити в обєкт ключі
@@ -83,17 +84,17 @@
 //   qwe: 3,
 // };
 
-// playlist.qwe = 5;
+// playlist.rating = 10;
 // console.log(playlist);
 
 /*
  * Ссилочний тип {} === {}
  */
-// console.log([1, 2, 3] === [1, 2, 3]);
-// console.log({ a: 1 } === { a: 1 });
+// console.log([1, 2, 3] === [1, 2, 3]); //false
+// console.log({ a: 1 } === { a: 1 }); //false
 
-// console.log(1 === 1);
-// console.log('first' === 'first');
+// console.log(1 === 1); //true
+// console.log('first' === 'first'); //true
 
 /*
  * Масиви і функції це обєкти
