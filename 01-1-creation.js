@@ -42,8 +42,8 @@
 
 // console.log(playlist.rating);
 
-// const properyName = 'tracks';
-// console.log(playlist['traks']);
+// const properyName = 'rating';
+// console.log(playlist['rating']);
 // console.log(properyName);
 
 /*
