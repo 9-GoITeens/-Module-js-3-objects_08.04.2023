@@ -50,7 +50,3 @@ const getAllNames = function (allFriends) {
 };
 
 console.log(getAllNames(friends));
-
-/*
- * Отримуєм імена тільки друзів які онлайн
- */
